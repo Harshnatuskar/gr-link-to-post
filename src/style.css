@@ -17,9 +17,20 @@ body {
   align-items: center;
 }
 
+/* Default size for .btn */
+.gr-button .btn {
+  width: 150px;
+  height: 45px;
+}
+
+.gr-button-small .btn {
+  width: 50px;
+  height: 45px;
+}
+
 .gr-button {
   position: relative;
-  margin-left: 20px;
+  margin-left: 10px;
   margin-bottom: 45px;
 }
 
@@ -38,8 +49,6 @@ body {
 }
 
 .btn {
-  width: 150px;
-  height: 45px;
   color: white;
   font-size: 1.5rem;
   border: solid 2px black;
@@ -76,3 +85,33 @@ input {
   text-decoration: none;
   -webkit-appearance: none;  
 }
+
+.post{
+  margin-top: 20px;
+  height:580px;
+  width: 450px;
+  border: 2px solid #333;
+  border-radius: 6px;
+  overflow: hidden; 
+}
+
+#product-image{
+  width:450px;
+  height:420px;
+  background-color: black;
+  margin: 0;
+}
+
+#product-name{
+  padding: 4px; /* Adjust as needed */
+}
+
+#product-price,
+#logo {
+  border-top: 2px solid #333; 
+  padding: 5px; /* Adjust as needed */
+}
+
+
+
+
